@@ -14,7 +14,7 @@ namespace ConsoleApp1
             {
                 for (int j = 1; j <= userValue; j++)
                 {
-                    if (i == 1 || i == userValue || j == 1 || j == userValue)
+                    if (i == 1 || i == userValue || j == 1 || j == userValue || j == 2 || i == 2 || i == userValue - 1 || j == userValue - 1)
                     {
                         Console.Write(" *");
                     }
